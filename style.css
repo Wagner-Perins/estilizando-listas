@@ -1,0 +1,35 @@
+/* *{
+    margin: 0%;
+    padding: 0%;
+}*/
+
+
+ul{
+   /* list-style-image: url(./checked.png);*/
+
+    list-style: square inside url(./checked.png);
+}
+
+ul li{
+    border: solid 2px;
+    padding: 2px;
+    margin: 2px;
+    background-color: orangered;
+    font-size: 20px;
+    font-family:cursive;
+    text-shadow: 10px 5px 3px #080808;
+}
+
+ol{
+    list-style: armenian inside url(./checked.png);
+}
+
+ol li{
+    border: solid 2px;
+    padding: 2px;
+    margin: 2px;
+    background-color: rgb(209, 0, 0);
+    font-size: 20px;
+    font-family: monospace;
+    text-shadow: 10px 5px 3px #080808;
+}
